@@ -7,4 +7,13 @@ Music genre classification
 附件中的csv文件有对剩下的歌曲的流派的标注。  
 将代码与数据集放在同一个文件夹，修改代码中的数据集路径。  
 将数据集分为训练集和测试集(本小组随机抽取了200个文件作为测试集)，开始训练。  
-需要安装的库有：  
+调用的库声明：  
+import librosa  
+import numpy  
+import glob  
+import csv  
+import pydub  
+import codecs  
+import torch  
+import random  
+import sklearn  
